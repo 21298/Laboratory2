@@ -64,7 +64,7 @@ public class Vista {
                 datos[0] ="SDR";
                 boolean pedirtamano = true;
                 
-                //1 = 4GB, 2 = 8GB, 3 = 16GB, 4 = 32GB, 5 = 64GB
+                
                 while(pedirtamano){
                     System.out.println("Ingrese el tamaño: ");
                     System.out.println("(1). 4GB ");
@@ -163,6 +163,7 @@ public class Vista {
     public String directorio(){//Se solicita la ubicacion del archivo donde se mostra el análisis
         
         System.out.println("Ingrese la ubicación del Archivo 'Simulacion.txt' ");
+        System.out.println("Al ingresar la ubicación, agregar 'Diagonal invertida(\\)' al final de esta ");
         System.out.println("Ejemplo: C:\\Users\\angel\\OneDrive\\Documentos\\POO\\Laboratorio2");
         String directorio = string.nextLine();
         return directorio; 

@@ -1,0 +1,5 @@
+Nombre,TamañoMBs,CiclosReloj
+ClashOfClans,900,2
+Whatssap,850,3
+ClashRoyale,900,2
+Instagram,500,4
